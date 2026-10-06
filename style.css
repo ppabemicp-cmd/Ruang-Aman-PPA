@@ -1,0 +1,261 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7f8;
+  color: #4a3038;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 80px;
+  margin-bottom: 15px;
+  font-size: 42px;
+  color: #8f4058;
+  letter-spacing: 1px;
+  
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 10px auto;
+
+}
+button {
+  margin-top: 20px;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  background: #8f4058;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  opacity: 0.85;
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(143, 64, 88, 0.25);
+}
+header {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fffafb;
+  border-radius: 28px;
+  box-shadow: 0 10px 30px rgba(143, 64, 88, 0.12);
+  box-sizing: border-box;
+  width: 90%;
+}
+}
+.icon {
+  font-size: 42px;
+  color: #8f4058;
+  margin-bottom: 5px;
+}
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fffafb;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #f0dce1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: #8f4058;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px;
+}
+nav a:hover {
+  color: #c06a83;
+}
+section {
+  padding: 40px 20px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(143, 64, 88, 0.08);
+}
+
+section h2 {
+  color: #8f4058;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #5c454c;
+  margin: 0;
+}
+.tema-judul {
+  color: #8f4058;
+  font-size: 26px;
+  margin: 15px 0 5px;
+}
+
+.tema-subjudul {
+  color: #a65b70;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 auto 20px;
+}
+
+#aduan form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+#aduan select,
+#aduan textarea,
+#aduan input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #e0b8c4;
+  border-radius: 12px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background: #fffafb;
+  color: #4a3038;
+  resize: vertical;
+}
+#aduan label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #8f4058;
+  text-align: left;
+  width: 100%;
+}
+#aduan button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 16px;
+}
+}
+.tombol-aduan {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 14px 28px;
+  border-radius: 30px;
+  background: #8f4058;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.tombol-aduan:visited {
+  color:Pink;
+}
+
+.privasi-info {
+  font-size: 13px;
+  color: #8f4058;
+  background: #fff1f4;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0 20px;
+}
+.kontak-info {
+  font-size: 13px;
+  color: #7a6269;
+  text-align: left;
+  margin: -5px 0 10px;
+}
+.rahasia-info {
+  font-size: 13px;
+  color: #7a6269;
+  background: #fff8fa;
+  padding: 12px;
+  border-left: 4px solid #8f4058;
+  border-radius: 8px;
+  text-align: left;
+  margin: 10px 0 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+#aduan input {
+  min-height: 48px;
+}
+.kontak-anggota {
+  background: #fff8fa;
+  border: 1px solid #f0dce1;
+  border-radius: 14px;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.kontak-anggota p {
+  margin: 5px 0;
+}
+.tombol-wa {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background: #8f4058;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  header {
+    padding: 40px 15px;
+    width: 94%;
+  }
+
+  nav {
+    padding: 12px 8px;
+  }
+
+  nav a {
+    margin: 4px 6px;
+    font-size: 13px;
+  }
+
+  section {
+    width: 94%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+footer {
+  margin-top: 40px;
+  padding: 30px 20px;
+  background: #8f4058;
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin: 6px auto;
+  font-size: 14px;
+  color: white;
+}
