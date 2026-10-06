@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruang Aman PPA</title>
+</head>
+
+<body>
+
+  <nav id="atas">
+  <a href="#atas">Beranda</a>
+  <a href="#tentang">Tentang PPA</a>
+  <a href="#kenali-kekerasan">Kenali Kekerasan</a>
+  <a href="#bantuan">Bantuan</a>
+    <a href="#kontak">Hubungi Kami</a>
+  <a href="#aduan">Aduan</a>
+  </nav>
+  <header>
+    <div class="icon">♡</div>
+  <h1>Ruang Aman</h1>
+  <h2 class="tema-judul">Kenali Batas, Hormati Sesama</h2>
+<p class="tema-subjudul">Membangun Budaya Kampus yang Aman</p>
+  <p>Pusat Pengaduan dan Perlindungan Perempuan dan Anak</p>
+
+<p>Tempat yang aman untuk menyampaikan cerita, mencari bantuan, dan mendapatkan informasi.</p>
+
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdA1ZH5Sp6YLmFU7Ykj0JUxEJZ3EyKtIwAaHelV6EGWfv9cNg/viewform?usp=header" target="_blank" class="tombol-aduan">Buat Aduan</a>
+  </header>
+  <section id="tentang">
+  <h2>Tentang Ruang Aman</h2>
+  
+  <p>
+    Ruang Aman merupakan pusat informasi dan pengaduan
+    untuk mendukung perempuan dan anak mendapatkan perlindungan,
+    informasi, dan bantuan yang dibutuhkan.
+  </p>
+</section> 
+<section id="kenali-kekerasan">
+  <h2>Kenali Kekerasan</h2>
+  <p>
+    Kekerasan dapat terjadi dalam berbagai bentuk, termasuk kekerasan fisik,
+    verbal, psikis, seksual, maupun perundungan. Mengenali tanda-tandanya
+    merupakan langkah awal untuk menciptakan lingkungan yang aman.
+  </p>
+</section>
+  <section id="bantuan">
+  <h2>Bantuan</h2>
+  <p>
+    Jika membutuhkan bantuan atau merasa berada dalam situasi yang tidak aman,
+    jangan hadapi sendiri. Sampaikan aduan melalui Ruang Aman agar dapat
+    diarahkan kepada pihak yang sesuai.
+    </p>
+  
+    <p>
+  Untuk mendapatkan informasi lebih lanjut, silakan hubungi
+  pengelola Ruang Aman melalui kontak resmi yang tersedia.
+    </p>
+  </section>
+  <section id="kontak">
+  <h2>Hubungi Kami</h2>
+  <p>
+    Jika ingin berkonsultasi atau membutuhkan informasi lebih lanjut,
+    pengadu dapat menghubungi anggota PPA melalui kontak resmi berikut.
+  </p>
+
+  <div class="kontak-anggota">
+    <p><strong>Darmawaty</strong></p>
+    <p>WhatsApp: 085243929432</p>
+  </div>
+<a href="https://wa.me/6285243929432" target="_blank"  class="tombol-wa">Hubungi via WhatsApp</a>
+  <div class="kontak-anggota">
+    <p><strong>A.Aulia Pratiwi</strong></p>
+    <p>WhatsApp: 082321056620</p>
+  </div>
+  <a href="https://wa.me/6282321056620" target="_blank" class="tombol-wa">Hubungi via WhatsApp</a>
+  </section>
+  <section id="aduan">
+  <h2>Buat Aduan</h2>
+  <p>Sampaikan cerita atau laporan dengan aman dan sejelas yang bisa dilakukan.</p>
+    <p class="privasi-info">
+  Demi keamanan, hindari menuliskan data pribadi yang tidak diperlukan.
+    </p>
+    <p class="rahasia-info">
+  Informasi yang disampaikan akan dijaga kerahasiaannya dan digunakan untuk keperluan penanganan aduan.
+    </p>
+
+  <form id="formAduan">
+    <label for="jenis">Jenis Aduan</label>
+<label for="anonim">Pilihan identitas</label>
+
+<select id="anonim"required>
+  <option value="">-- Pilih --</option>
+  <option value="anonim">Saya ingin tetap anonim</option>
+  <option value="identitas">Saya bersedia memberikan identitas</option>
+</select>
+    <label for="kontak">Kontak yang dapat dihubungi (opsional)</label>
+    <p class="kontak-info">
+  Kolom ini boleh dikosongkan jika tidak ingin dihubungi.
+    </p>
+
+<input
+  type="text"
+  id="kontak"
+  placeholder="Nomor HP atau email (jika bersedia)"
+>
+    <select id="jenis"required>
+      <option value="">-- Pilih jenis aduan --</option>
+      <option>Kekerasan</option>
+      <option>Perundungan</option>
+      <option>Pelecehan</option>
+      <option>Ancaman</option>
+      <option>Lainnya</option>
+    </select>
+
+    <label for="cerita">Ceritakan yang ingin disampaikan</label>
+
+    <textarea id="cerita" rows="6"required placeholder="Tuliskan cerita atau laporan di sini..."></textarea>
+
+    <button type="submit">Kirim Aduan</button>
+  </form>
+  </section>
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="kembali-atas">
+  ↑ Kembali ke Atas
+  </button>
+  <footer>
+  <p><strong>Ruang Aman</strong></p>
+  <p>Program Kerja BEM - Perlindungan Perempuan dan Anak</p>
+  <p>Kenali Batas, Hormati Sesama</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
